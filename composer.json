@@ -13,8 +13,8 @@
             "Naplanum\\MVC\\": "app/"
         },
         "files": [
-             "app/helpers/exception.php"
-        ]           
+            "app/helpers/exception.php"
+        ]
     },
     "require": {
         "php": ">=8.1"

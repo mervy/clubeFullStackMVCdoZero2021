@@ -1,2 +1,5 @@
 /vendor/
 .idea
+vendor/
+todo.todo
+composer.lock
