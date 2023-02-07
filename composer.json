@@ -1,6 +1,6 @@
 {
-    "name": "mervy/mvc-do-zero-2021",
-    "description": "MVC do Canal Clube Full-Stack - MVC do Zero 2021",
+    "name": "mervy/naplanum-mvc",
+    "description": "MVC do Canal Clube Full-Stack - MVC do Zero 2021 - Adaptado",
     "licence": "MIT",
     "authors": [
         {
@@ -17,11 +17,19 @@
         ]
     },
     "require": {
-        "php": ">=8.1"
+        "php": ">=8.1",
+        "league/plates": "^3.5"
     },
     "links": {
         "site": "https://en.wikipedia.org/wiki/Naplanum",
-        "tutorial": "https://www.youtube.com/playlist?list=PLyugqHiq-SKfukUveEDvBjLlRRNZzRriO",
-        "repo": "https://github.com/mervy/clubeFullStackMVCdoZero2021"
+        "tutorial": {
+            "MVC 2021": "https://www.youtube.com/playlist?list=PLyugqHiq-SKfukUveEDvBjLlRRNZzRriO",
+            "ActiveRecord": "https://www.youtube.com/playlist?list=PLyugqHiq-SKee_GGYrLvO4zNJTC7Q3Hd9",
+            "Mini Loja": "https://www.youtube.com/playlist?list=PLyugqHiq-SKcA1ms9a4sq7-hQAA_iryiB"
+        },
+        "repo": {
+            "MVC 2021": "https://github.com/mervy/clubeFullStackMVCdoZero2021",
+            "ActiveRecord": "https://github.com/mervy/activeRecordFullStack"
+        }
     }
 }
