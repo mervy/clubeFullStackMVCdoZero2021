@@ -16,7 +16,9 @@ class View
         if (!file_exists($filePath . $view . '.php')) {
             throw new Exception("View {$view} des not exist");
         }
+
         $templates = new Engine($filePath);
+
         echo $templates->render($view, $data);
     }
 }
